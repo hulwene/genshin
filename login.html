@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Begin your journey</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <div class="content">
+        <h2>Genshin Impact</h2>
+        <div class="text-sci">
+          <h2>
+            Welcome! <br />
+            <span>To fantastic journey</span>
+          </h2>
+
+          <p>Start your journey with a heart full of enthusiasm.</p>
+
+          <div class="social-icon">
+            <a href="https://www.facebook.com/hiimhule" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#"><i class="bx bxl-gmail"></i></a>
+            <a href="https://www.instagram.com/hulwe._1609/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="logreg-box">
+        <div class="form-box login">
+          <form action="#" onsubmit="return validateAndRedirect();">
+            <h2>Sign In</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxl-gmail"></i></span>
+              <input type="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" id="password" required />
+              <label for="password">Password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label><input type="checkbox" required />Remember me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Sign In</button>
+
+            <div class="login-register">
+              <p>
+                Don't have an account?
+                <a href="#" class="register-link">Sign Up</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-box register">
+          <form action="#">
+            <h2>Sign Up</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bx-user"></i></span>
+              <input type="text" name="username" id="username" />
+              <label for="username">Name</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxl-gmail"></i></span>
+              <input type="email" name="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" name="password" id="password" required />
+              <label for="password">Password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label><input type="checkbox" required />I agree</label>
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+
+            <div class="login-register">
+              <p>
+                Already have an account?
+                <a href="#" class="login-link">Sign In</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
