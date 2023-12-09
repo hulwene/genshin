@@ -28,3 +28,7 @@ function validateAndRedirect() {
   window.location.href = "index.html";
   return false;
 }
+
+function navtoLoginPage() {
+  window.location.href = "login.html";
+}

@@ -6,14 +6,37 @@
 
 .city {
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-color: black;
+  transition: 0.7s linear;
+  margin-top: -4px;
 }
 
 .city:hover {
-  border: solid aliceblue 4px;
-  transition: 2s;
   cursor: pointer;
-  padding: 50px;
-  background-color: rgba(17, 83, 99, 0.681);
+  padding: 20px;
+}
+
+.mondast-city {
+  background: url(mondast-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.liyue-city {
+  background: url(liyue-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.inazuma-city {
+  background: url(inazuma-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sumeru-city {
+  background: url(sumeru-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }

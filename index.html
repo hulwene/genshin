@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/homepage.css" />
     <link rel="stylesheet" href="css/citylist.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -15,9 +19,10 @@
         <nav class="nav-bar">
           <a href="#" class="link">Charater</a>
           <a href="#" class="link">Story</a>
-          <a href="login.html" target="_blank"
-            ><button class="login-button-popup">Login</button></a
-          >
+
+          <button class="login-button-popup" onclick="navtoLoginPage()">
+            Login
+          </button>
         </nav>
       </header>
       <article class="main-hompage">
@@ -32,6 +37,7 @@
         </div>
 
         <div class="city-list">
+          <div class="bg-mondast"></div>
           <a href="#" class="mondast"
             ><video
               src="pic/mondast.mp4"
@@ -48,9 +54,7 @@
             loop
             muted
             class="city liyue-city"
-          >
-            >
-          </video>
+          ></video>
 
           <video
             src="pic/inazuma.mp4"
@@ -70,5 +74,32 @@
         </div>
       </article>
     </div>
+
+    <footer>
+      <div class="footer-nav">
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitch"></i></a>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="pic/logo.png" alt="logo-genshin" />
+        </div>
+
+        <div class="term">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">About Us</a>
+        </div>
+
+        <div class="rating-rank">
+          <img src="pic/rating rank.png" alt="rating-rank" />
+        </div>
+        <p>Copyright &copy; HULWENE. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
