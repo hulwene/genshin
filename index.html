@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>genshinweb</title>
+    <title>Begin Your Journey</title>
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/homepage.css" />
     <link rel="stylesheet" href="css/citylist.css" />
@@ -11,15 +11,37 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      href="pic/487df87d9e6b9cff71fbff73d3eb4fd9.jpg"
+      type="image/icon type"
+    />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <img src="pic/logo.png" alt="logo-gens" class="logo-nav" />
         <nav class="nav-bar">
-          <a href="#" class="link">Charater</a>
-          <a href="#" class="link">Story</a>
+          <div class="dropdown">
+            <a href="#" class="link">Charater</a>
+            <div class="dropdown-content">
+              <a href="">Mondstadt</a>
+              <a href="">Liyue</a>
+              <a href="">Inazuma</a>
+              <a href="">Sumeru</a>
+            </div>
+          </div>
 
+          <div class="dropdown">
+            <a href="#" class="link">Teyvat</a>
+            <div class="dropdown-content">
+              <a href="mondast.html">Mondstadt</a>
+              <a href="#">Liyue</a>
+              <a href="">Inazuma</a>
+              <a href="">Sumeru</a>
+            </div>
+          </div>
+          <a href="#">Home</a>
           <button class="login-button-popup" onclick="navtoLoginPage()">
             Login
           </button>
@@ -37,16 +59,17 @@
         </div>
 
         <div class="city-list">
-          <div class="bg-mondast"></div>
-          <a href="#" class="mondast"
-            ><video
-              src="pic/mondast.mp4"
-              autoplay
-              loop
-              muted
-              class="city mondast-city"
-            ></video
-          ></a>
+          <div class="bg">
+            <a href="#" class="mondast"
+              ><video
+                src="pic/mondast.mp4"
+                autoplay
+                loop
+                muted
+                class="city mondast-city"
+              ></video
+            ></a>
+          </div>
 
           <video
             src="pic/liyue.mp4"
