@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  font-size: 120px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(240, 248, 255);
+  text-shadow: 1px 6px 5px rgba(4, 0, 0, 0.54);
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+  padding: 20px 90px;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.parallax-1 {
+  background: url(liyue-place/place1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-2 {
+  background: url(liyue-place/place2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-3 {
+  background: url(liyue-place/place3.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+.parallax-4 {
+  background: url(liyue-place/place4.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+.parallax-5 {
+  background: url(liyue-place/place5.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+.parallax-inner {
+  padding: 10% 0;
+}
