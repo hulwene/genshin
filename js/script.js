@@ -30,5 +30,35 @@ function validateAndRedirect() {
 }
 
 function navtoLoginPage() {
-  window.location.href = "login.html";
+  window.open("login.html", "_blank");
+}
+
+function navtoMondtastPage() {
+  window.location.href = "mondast.html";
+}
+
+function navtoLiyuePage() {
+  window.location.href = "liyue.html";
+}
+
+function navtoInazumaPage() {
+  window.location.href = "inazuma.html";
+}
+
+function navtoSumeruPage() {
+  window.location.href = "sumeru.html";
+}
+
+// Modify this function in your script.js file
+function toggleMute() {
+  var backgroundMusic = document.getElementById("backgroundMusic");
+
+  // Check if the background music is currently muted
+  if (backgroundMusic.muted) {
+    // If muted, unmute the background music
+    backgroundMusic.muted = false;
+  } else {
+    // If not muted, mute the background music
+    backgroundMusic.muted = true;
+  }
 }

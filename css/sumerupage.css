@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 70px;
+  font-style: italic;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  text-shadow: 1px 6px 5px rgba(4, 0, 0, 0.54);
+}
+
+p {
+  line-height: 1.5;
+  padding: 20px 90px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0);
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 200px;
+  transition: 1s ease;
+}
+
+p:hover {
+  color: white;
+  text-shadow: 1px 6px 5px rgba(4, 0, 0, 0.54);
+}
+
+.parallax-1 {
+  background: url(sumeru-place/place1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-2 {
+  background: url(sumeru-place/place2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-3 {
+  background: url(sumeru-place/place3.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-4 {
+  background: url(sumeru-place/place4.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-5 {
+  background: url(sumeru-place/place5.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-inner {
+  padding: 20% 0;
+}

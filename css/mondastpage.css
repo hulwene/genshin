@@ -9,67 +9,60 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  background-color: white;
-}
-
 h1 {
-  font-size: 120px;
+  font-size: 70px;
   font-style: italic;
   text-align: center;
-  color: rgb(240, 248, 255);
+  color: rgba(255, 255, 255, 0.89);
   text-shadow: 1px 6px 5px rgba(4, 0, 0, 0.54);
-}
-
-h2 {
-  font-size: 32px;
-  color: black;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 p {
   line-height: 1.5;
   padding: 20px 90px;
   font-size: 18px;
-  color: black;
+  color: rgba(255, 255, 255, 0);
   margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 200px;
+  transition: 1s ease;
 }
 
-section {
-  margin-bottom: 20px;
+p:hover {
+  color: white;
+  text-shadow: 1px 6px 5px rgba(4, 0, 0, 0.54);
 }
 
 .parallax-1 {
-  background: url(mondast-place/place\ 1.jpg) no-repeat;
+  background: url(mondast-place/place1.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .parallax-2 {
-  background: url(mondast-place/place\ 2.jpg) no-repeat;
+  background: url(mondast-place/place2.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .parallax-3 {
-  background: url(mondast-place/place\ 3.jpg) no-repeat;
+  background: url(mondast-place/place3.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-bottom: 20px;
 }
 
 .parallax-4 {
-  background: url(mondast-place/place\ 4.jpg) no-repeat;
+  background: url(mondast-place/place4.png) no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-bottom: 20px;
 }
 
 .parallax-5 {
@@ -77,9 +70,8 @@ section {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-bottom: 20px;
 }
 
 .parallax-inner {
-  padding: 10% 0;
+  padding: 20% 0;
 }
