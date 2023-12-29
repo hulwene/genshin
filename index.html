@@ -21,24 +21,35 @@
     <div class="container">
       <header class="header">
         <img src="pic/logo.png" alt="logo-gens" class="logo-nav" />
+        <!-- <button id="muteButton" onclick="toggleMute()">Toggle Mute</button> -->
+        <audio
+          src="audio/y2meta.com-Genshin Impact Main Theme-(144p).mp4"
+          loop
+          autoplay
+        ></audio>
+
         <nav class="nav-bar">
           <div class="dropdown">
-            <a href="#" class="link">Charater</a>
+            <a href="#" class="link"
+              >Charater<i class="icon-down bx bx-down-arrow"></i
+            ></a>
             <div class="dropdown-content">
-              <a href="">Mondstadt</a>
-              <a href="">Liyue</a>
-              <a href="">Inazuma</a>
-              <a href="">Sumeru</a>
+              <a href="venti.html">Venti</a>
+              <a href="">Zhongli</a>
+              <a href="">Raiden Shogun</a>
+              <a href="">Nahida</a>
             </div>
           </div>
 
           <div class="dropdown">
-            <a href="#" class="link">Teyvat</a>
+            <a href="#" class="link"
+              >Teyvat<i class="icon-down bx bx-down-arrow"></i
+            ></a>
             <div class="dropdown-content">
               <a href="mondast.html">Mondstadt</a>
-              <a href="#">Liyue</a>
-              <a href="">Inazuma</a>
-              <a href="">Sumeru</a>
+              <a href="liyue.html">Liyue</a>
+              <a href="inazuma.html">Inazuma</a>
+              <a href="sumeru.html">Sumeru</a>
             </div>
           </div>
           <a href="#">Home</a>
@@ -67,6 +78,7 @@
                 loop
                 muted
                 class="city mondast-city"
+                onclick="navtoMondtastPage()"
               ></video
             ></a>
           </div>
@@ -77,6 +89,7 @@
             loop
             muted
             class="city liyue-city"
+            onclick="navtoLiyuePage()"
           ></video>
 
           <video
@@ -85,6 +98,7 @@
             loop
             muted
             class="city inazuma-city"
+            onclick=" navtoInazumaPage()"
           ></video>
 
           <video
@@ -93,6 +107,7 @@
             loop
             muted
             class="city sumeru-city"
+            onclick="navtoSumeruPage()"
           ></video>
         </div>
       </article>
